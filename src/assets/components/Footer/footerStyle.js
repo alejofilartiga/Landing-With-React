@@ -12,12 +12,12 @@ export const FooterContainer = styled.footer`
 `
 
 export const ImgFooter = styled.img`
-    width: 1600px;
+    width: 100%;
     @media (max-width: 992px){
-        width: 900px;
+        width: 100%;
     }
     @media (max-width: 576px){
-        width: 1000px;
+        width: 100%;
     }
 
 `
