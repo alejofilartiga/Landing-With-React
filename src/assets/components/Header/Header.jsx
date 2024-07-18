@@ -1,18 +1,16 @@
 import {HeaderContainer, 
-        NavContainer, 
-        ToggleMenu,
-        LinksContainer,
-        LinkStyle,
-        TauImg,
-        CartIcon
-         } from "./headerStyle";
+  NavContainer, 
+  ToggleMenu,
+  LinksContainer,
+  LinkStyle,
+  TauImg,
+  CartIcon
+   } from "./headerStyle";
 
 import TauNav from './img/taunav.png'
 import ToggleImage from './img/togglemenu.png'
 import CartImage from './img/carticon.png'
-import Products from "../Products/Products";
-import Footer from "../Footer/Footer";
-
+import {Link} from 'react-router-dom';
 
 
 function Header() {
@@ -22,9 +20,11 @@ function Header() {
         <NavContainer>
           <ToggleMenu src={ToggleImage}/>
           <LinksContainer>
-            <LinkStyle href="#products">Productos</LinkStyle>
+            <Link to='home'>Inicio</Link>
+            <Link to='products'>Productos</Link>
             <TauImg src={TauNav}/>
-            <LinkStyle href="#footer">Contacto</LinkStyle>
+            <Link to='contact'>Contacto</Link>
+            <Link to='about'>Nosotros</Link>
           </LinksContainer>
           <CartIcon src={CartImage} />
         </NavContainer>

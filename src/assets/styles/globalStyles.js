@@ -19,10 +19,20 @@ export const GlobalStyles=createGlobalStyle`
     li {
         list-style: none;
     }
-
+    
     section{
         padding-top: 10%;
         padding-bottom: 10%;
         width: 100%;
+
+        @media (max-width: 576px){
+        padding-top: 150px;
+        }
+        @media (max-width: 992px){
+        padding-top: 150px;
+        }
+
     }
+
+    
 `;

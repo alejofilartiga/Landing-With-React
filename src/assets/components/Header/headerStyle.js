@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
     width: 100%;
     justify-content: center;
     background-color: #242423;
-    z-index: 1;
+    z-index: 2;
 `
 
 export const NavContainer = styled.nav`

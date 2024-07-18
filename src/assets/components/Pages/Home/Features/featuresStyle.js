@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
-export const ProductSection = styled.section`
+export const FeaturesSection = styled.section`
     background-color: #E8EDDF;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 `
-export const TitleProduct = styled.h2`
+export const TitleFeature = styled.h2`
     font-size: 50px;
     text-align: center;
 
 `
 
-export const ProductsContainer = styled.div`
+export const FeaturesContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@ export const ProductsContainer = styled.div`
     gap: 50px;
 `
 
-export const CardProduct = styled.div`
+export const CardFeature = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
