@@ -43,10 +43,11 @@ export const TextArea = styled.textarea`
 
 export const SubmitButton = styled.button`
     background-color: #FFC300;
-    color: white;
-    width: 30%;
+    color: black;
+    width: 40%;
     margin: 10px;
     padding: 10px;
+    text-align: center;
 `
 
 export const ContactImg = styled.img`

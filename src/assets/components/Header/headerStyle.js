@@ -27,10 +27,7 @@ export const NavContainer = styled.nav`
 
 `
 
-export const ToggleMenu = styled.img`
-    width: 40px;
-    cursor: pointer;
-`
+
 
 export const LinksContainer = styled.div`
     display: flex;
@@ -41,7 +38,7 @@ export const LinksContainer = styled.div`
     /* gap: 100px; */
 `
 
-export const LinkStyle = styled.a`
+export const LinkStyle = styled.link`
     font-size: 15px;
     background-color: #242423;
     padding: 5px;
