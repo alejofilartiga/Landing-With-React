@@ -4,12 +4,11 @@ import {
         TitleContainer,
         InfoSection,
         TitleSection,
+        ProductsContainer
 
 } from './productsStyle'
 
-import { products } from '../../../data/products/productsData'
-
-
+import ProductList from './ProductCard'
 
 
 function Products() {

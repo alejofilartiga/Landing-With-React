@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom';
 
 export const HeaderContainer = styled.header`
     display: flex;
@@ -38,7 +39,7 @@ export const LinksContainer = styled.div`
     /* gap: 100px; */
 `
 
-export const LinkStyle = styled.link`
+export const LinkStyle = styled(NavLink)`
     font-size: 15px;
     background-color: #242423;
     padding: 5px;

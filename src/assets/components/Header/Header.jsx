@@ -1,7 +1,9 @@
 import {HeaderContainer, 
   NavContainer, 
   TauImg,
-  CartIcon
+  CartIcon,
+  LinkStyle,
+  LinksContainer
    } from "./headerStyle";
 
 import TauNav from './img/taunav.png'
